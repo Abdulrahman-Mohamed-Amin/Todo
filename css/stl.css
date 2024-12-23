@@ -1,0 +1,39 @@
+/* start todo  */
+
+.todo{
+  height: 100vh;
+  position: relative;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  overflow: scroll;
+}
+.todo h1{
+  color: purple;
+  opacity: 0.2;
+  font-size: 150px;
+}
+.todo input{
+  border: none;
+  font-size: 25px;
+  border-radius: 3px;
+  padding: 15px;
+  box-shadow: var(--box-shadow);
+}
+.todo input:focus{
+  outline: purple 2px solid;
+}
+
+.todo .result .res{
+background: #fff;
+border-top: 1px solid #ccc;
+font-size: 25px;
+padding: 10px 20px;
+}
+.todo .result .res.finish{
+  text-decoration: line-through;
+  color: #d4d3dd;
+}
